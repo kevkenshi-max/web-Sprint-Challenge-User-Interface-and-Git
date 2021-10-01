@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -56,6 +56,31 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 26%;
+}
+
+.links {
+    margin-top: 50px;
+    margin-right: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbo {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -85,6 +110,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +131,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +171,91 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-section {
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.gridImage {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.about-plan {
+    margin: 10px;
+    flex-basis: calc(50% - 40px);
+    border-bottom: 1px dashed black;
+    padding: 20px 0px 20px 0px;
+}
+
+.text {
+    padding-top:20px;
+}
+
+.text a {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: black;
+    margin: 20px 0px;
+}
+
+.workTogether-section {
+    margin-top: 200px;
+    padding: 40px 0;
+    border-bottom: 1px dashed black;
+}
+
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+
+#five {
+    background-color: crimson;
+}
+
+#six {
+    background-color: forestgreen;
+}
+
+#seven {
+    background-color: darkorchid;
+}
+
+#eight {
+    background-color: hotpink;
+}
+
+#nine {
+    background-color: indigo;
+}
+
+#ten {
+    background-color: dodgerblue;
+}
+
